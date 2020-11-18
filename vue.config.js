@@ -1,14 +1,9 @@
-module.export = {
+module.exports = {
     configureWebpack: {
-        reslove: {
+        resolve: {
             alias: {
-                'assets': '@/assets',
-                'components': '@/components',
-                'network': '@/network',
-                'router': '@/router',
-                'store': '@/store',
-                'views': '@/views',
-                'common': '@/common',
+                '@': 'src',
+                'components': "@/components"
             }
         }
     }
