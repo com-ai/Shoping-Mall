@@ -1,0 +1,36 @@
+@import "assets/css/normalize.css";
+:root {
+    --color-text: #666;
+    --color-high-text: ff5777;
+    --color-tint: ff8198;
+    --color-background: pink;
+    --font-size: 14px;
+    --line-height: 1.5;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
